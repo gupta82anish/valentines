@@ -1,0 +1,19 @@
+.heart {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    fill: rgb(164, 4, 4);
+    top: -10px; /* Adjust as needed */
+    /* left: calc(10vw + (90vw - 60px) * var(--randomLeft)); */
+    animation: fall linear infinite 5s;
+  }
+
+
+  
+  @keyframes fall {
+    to {
+      transform: translateY(100vh);
+    }
+  }
+  
